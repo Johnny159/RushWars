@@ -20,7 +20,7 @@ type rushWars struct {
 }
 
 func NewRushWars(token string) (rushWars, error) {
-	return rushWars{token,}, nil
+	return rushWars{token}, nil
 }
 
 func (rw rushWars) MakeRequest(url string) ([]byte, error) {
